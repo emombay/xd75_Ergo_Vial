@@ -6,12 +6,12 @@
 
 /* Per-layer RGB tint (H, S, V) — consumed by layer_colors[] in keymap.c */
 #define RGB_MATRIX_COLOR_LAYER_0 170, 255, 255
-#define RGB_MATRIX_COLOR_LAYER_1 170, 255, 255
+#define RGB_MATRIX_COLOR_LAYER_1 212, 255, 255
 #define RGB_MATRIX_COLOR_LAYER_2 0, 255, 255
 #define RGB_MATRIX_COLOR_LAYER_3 85, 255, 255
 #define RGB_MATRIX_COLOR_LAYER_4 42, 255, 255
 #define RGB_MATRIX_COLOR_LAYER_5 127, 255, 255
-#define RGB_MATRIX_COLOR_LAYER_6 212, 255, 255
+#define RGB_MATRIX_COLOR_LAYER_6 0, 255, 255
 
 /* No per-key LEDs on this board (underglow only) — keypress-reactive and
  * framebuffer (heatmap/rain) effects are intentionally not enabled. */
