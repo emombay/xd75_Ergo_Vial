@@ -278,6 +278,7 @@ static void set_layer_color(uint8_t layer) {
 }
 
 void keyboard_post_init_user(void) {
+    rgb_matrix_enable_noeeprom();
     set_layer_color(get_highest_layer(layer_state | default_layer_state));
 }
 
